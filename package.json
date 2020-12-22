@@ -1,0 +1,15 @@
+{
+  "name": "bind-function",
+  "version": "0.0.1",
+  "description": "Bind function arguments without binding 'this'. Lightweight and minimal.",
+  "main": "index.js",
+  "files": ["index"],
+  "scripts": {
+    "test": "npx ava"
+  },
+  "author": "NiallJP",
+  "license": "ISC",
+  "devDependencies": {
+    "ava": "^3.14.0"
+  }
+}
