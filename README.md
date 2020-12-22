@@ -1,6 +1,6 @@
 # Bind function
 
-Passed a function *f* and zero or more arguments *a1*...*an* returns a function that, when called, returns *f* called with a1*...*an* passed as arguments. Alternative to `Function.prototype.bind`. Does not accept a this value.
+Passed a function f and zero or more arguments a1...an returns a function that, when called, calls and returns f with a1...an passed as arguments. Alternative to `Function.prototype.bind` that does not accept a `this` value.
 
 ## API
 
@@ -39,7 +39,6 @@ boundSumNums(); // returns 3
 ## Purpose
 
 JavaScript has a native solution for function binding, namely `Function.prototype.bind`. Not only is this method syntactically verbose, in that it requires prototype reference and must accept a `this` binding, it does not always work as expected, partcicularly when working with onClick events. Bind function offers an alternative for when you need to call a function with some specified arguments.
-
 
 ## Test
 
