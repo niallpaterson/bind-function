@@ -15,7 +15,9 @@
     "this"
   ],
   "main": "index.js",
-  "files": ["index"],
+  "files": [
+    "index"
+  ],
   "scripts": {
     "test": "npx ava"
   },
